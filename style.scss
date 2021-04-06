@@ -1,0 +1,1307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: radial-gradient(100% 100% at 50% 0%, #1f2882 0%, #081852 100%);
+    min-height: 100vh;
+    max-width: 1920px;
+    padding-top: 32px;
+    .birinchi {
+        max-width: 1208px;
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nav-brand {
+                width: 290px;
+                height: 52px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .nav-menu {
+                display: flex;
+
+                align-items: center;
+                width: 327px;
+                height: 24px;
+                .img-menu {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 24px;
+                    border-right: 1px solid rgba(255, 255, 255, 0.1);
+                    margin-right: 24px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        margin-right: 8px;
+                    }
+
+                    p {
+                        color: rgba(255, 255, 255, 0.4);
+                        margin-bottom: 0;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 18px;
+                        font-family: "Manrope", sans-serif;
+                        font-style: normal;
+                    }
+                }
+                .img-menu:hover {
+                    p {
+                        color: white;
+                    }
+                }
+                .text-menu {
+                    font-family: "Manrope", sans-serif;
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 18px;
+                    font-weight: bold;
+                    font-style: normal;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    height: 38px;
+                    width: 160px;
+
+                    border-radius: 8px;
+                    cursor: pointer;
+                    .my-bloor {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 8px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: rgba(255, 255, 255, 0.1);
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .header-content {
+            .row {
+                .header-left {
+                    padding-top: 196px;
+                    p:nth-child(1) {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #ffffff;
+                        opacity: 0.4;
+                        letter-spacing: 0.1em;
+                        font-family: "Manrope", sans-serif;
+                        margin-bottom: 0;
+                    }
+                    p:nth-child(2) {
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 42px;
+                        line-height: 66px;
+                        font-family: "Manrope", sans-serif;
+                        color: #ffffff;
+                        letter-spacing: -0.02em;
+                        margin-bottom: 24px;
+                    }
+                    p:nth-child(3) {
+                        font-style: medium;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 30px;
+                        color: #ffffff;
+                        font-family: "Manrope", sans-serif;
+                        margin-bottom: 58px;
+                    }
+                    .left-btn {
+                        button:nth-child(1) {
+                            background: rgba(255, 255, 255, 0.1);
+                            border: 1px solid rgba(255, 255, 255, 0.1);
+                            border-radius: 10px;
+                            height: 58px;
+                            width: 263px;
+                            margin-right: 24px;
+                            transition: all 0.3s ease;
+                            color: #fff;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                        button:nth-child(2) {
+                            width: 191px;
+                            height: 58px;
+                            background: rgba(255, 255, 255, 0.1);
+                            border: 1px solid rgba(255, 255, 255, 0.1);
+                            border-radius: 10px;
+                            transition: all 0.3s ease;
+                            color: #fff;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                        button:hover {
+                            background-color: #304fff;
+                        }
+                    }
+                }
+                .header-right {
+                    .mainheader {
+                        display: flex;
+                        justify-content: center;
+                        height: 850px;
+                        align-items: center;
+                        position: relative;
+                        flex-direction: column;
+                        .dashed-border {
+                            width: 500px;
+                            height: 500px;
+                            border: 5px dashed rgba(255, 255, 255, 0.1);
+                            border-radius: 50%;
+                            margin-top: 169px;
+                            position: absolute;
+                            object-fit: contain;
+                            vertical-align: middle;
+                            z-index: 0;
+                        }
+                        .antenna {
+                            mix-blend-mode: multiply;
+                            position: absolute;
+                            z-index: 1;
+                        }
+                        .rightimg {
+                            margin-left: auto;
+                            z-index: 5;
+                        }
+                        .leftimg {
+                            margin-right: auto;
+                            z-index: 5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main {
+    max-width: 1920px;
+    .sect-one {
+        width: 100%;
+        .ikkinchi {
+            max-width: 1208px;
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                .sect-one-box {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 188px;
+                    height: 120px;
+                }
+            }
+        }
+    }
+    .sect-two {
+        background-color: #e5e5e5;
+        padding-bottom: 64px;
+        height: auto;
+        .uchinchi {
+            max-width: 1208px;
+            .about {
+                padding-top: 64px;
+                p:nth-child(1) {
+                    margin-bottom: 0;
+                    color: #001d38;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 48px;
+                    line-height: 66px;
+                    letter-spacing: -0.02em;
+                    font-family: "Manrope", sans-serif;
+                    text-align: center;
+                }
+                p:nth-child(2) {
+                    margin-top: 24px;
+                    margin-bottom: 0;
+                    text-align: center;
+                    width: 596px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: #001d38;
+                    font-family: "Manrope", sans-serif;
+                }
+                .about-img {
+                    margin-top: 36px;
+
+                    background: radial-gradient(100% 100% at 50% 0%, #1f2882 0%, #081852 100%);
+                    border-radius: 20px;
+                    padding: 24px;
+                    height: auto;
+
+                    .my-div {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .about-content {
+                    margin-top: 64px;
+                    .row {
+                        .about-left {
+                            .images {
+                                display: flex;
+
+                                align-items: center;
+
+                                position: relative;
+                                height: 100%;
+                                .wave {
+                                    position: absolute;
+                                    width: 320px;
+                                    height: 320px;
+                                    z-index: 1;
+                                    right: 0;
+                                    top: 32px;
+                                }
+                                .radio {
+                                    margin-right: auto;
+                                    width: 392px;
+                                    height: 371px;
+                                    top: 0;
+                                    z-index: 2;
+                                    position: absolute;
+                                }
+                                .camera {
+                                    margin: 0 auto;
+                                    width: 290px;
+                                    height: 240px;
+                                    z-index: 3;
+                                    bottom: 0;
+                                    position: absolute;
+                                    right: 88px;
+                                }
+                            }
+                        }
+                        .about-right {
+                            .right-content {
+                                p:nth-child(1) {
+                                    font-weight: 800;
+                                    font-size: 24px;
+                                    line-height: 28px;
+                                    color: #001d38;
+                                    letter-spacing: -0.02em;
+                                    font-style: normal;
+                                    font-family: "Manrope", sans-serif;
+                                    text-align: left;
+                                    margin-bottom: 24px;
+                                    width: 100%;
+                                }
+                                p:nth-child(2) {
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 32px;
+                                    font-style: normal;
+                                    color: #001d38;
+                                    font-family: "Manrope", sans-serif;
+                                    text-align: left;
+                                    width: 100%;
+                                    margin-bottom: 16px;
+                                }
+                                p:nth-child(3) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 32px;
+                                    color: #001d38;
+                                    font-family: "Manrope", sans-serif;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sect-three {
+        background-color: #fff;
+        margin-top: 64px;
+        .tortinchi {
+            max-width: 1208px;
+            .our-comfort {
+                .comfort-title {
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 48px;
+                    line-height: 66px;
+                    letter-spacing: -0.02em;
+                    color: #001d38;
+                    margin-bottom: 100px;
+                    font-family: "Manrope", sans-serif;
+                }
+                .row {
+                    .comfort-left {
+                        .comfort-content {
+                            .comfort-text {
+                                display: flex;
+                                align-items: center;
+                                margin-top: 64px;
+                                cursor: pointer;
+                                img {
+                                    width: 48px;
+                                    height: 48px;
+                                    margin-right: 34px;
+                                    margin-bottom: 48px;
+                                }
+                                .name-servise {
+                                    padding-bottom: 36px;
+                                    border-bottom: 1px solid rgba(0, 29, 56, 0.1);
+                                    p:nth-child(1) {
+                                        color: #001d38;
+                                        font-style: normal;
+                                        font-weight: 800;
+                                        font-size: 24px;
+                                        line-height: 28px;
+                                        font-style: normal;
+                                        font-family: "Manrope", sans-serif;
+                                        letter-spacing: -0.02em;
+                                        margin-bottom: 24px;
+                                    }
+                                    p:nth-child(2) {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                        color: #001d38;
+                                        font-family: "Manrope", sans-serif;
+                                        margin-bottom: 0;
+                                        width: 76%;
+                                    }
+                                }
+                            }
+                            .comfort-text:nth-child(1) {
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                    .comfort-right {
+                        .comfort-img {
+                            width: 100%;
+                            height: 770px;
+                            padding-top: 10px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sect-thour {
+        padding-bottom: 64px;
+        background: radial-gradient(100% 100% at 50% 0%, #1f2882 0%, #081852 100%);
+        .beshinchi {
+            max-width: 1208px;
+            .projects {
+                padding-top: 64px;
+                width: 100%;
+                .projects-title {
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 48px;
+                    line-height: 66px;
+                    color: #ffffff;
+                    letter-spacing: -0.02em;
+                    margin-bottom: 64px;
+                }
+                .project:nth-child(2) {
+                    background-image: url(./images/pr-bg-a.png);
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 472px;
+                    border: none;
+                    background-size: 100% 100%;
+                    margin-bottom: 46px;
+                    .parda {
+                        border-radius: 12px;
+                        padding: 36px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(94.37deg, #001d38 3.55%, rgba(0, 29, 56, 0) 100%);
+                        .project-name {
+                            width: 455px;
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 800;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #ffffff;
+                                letter-spacing: -0.02em;
+                                margin-bottom: 16px;
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                            }
+                            p:nth-child(2) {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 27px;
+                                color: rgba(255, 255, 255, 0.4);
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                                margin-bottom: 0;
+                            }
+                        }
+                        .partner {
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 22px;
+                                letter-spacing: 0.1em;
+                                color: #ffffff;
+                                opacity: 0.4;
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+                .project:nth-child(3) {
+                    background-image: url(./images/pr-bg-a.png);
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 472px;
+                    border: none;
+                    background-size: 100% 100%;
+                    margin-bottom: 46px;
+                    .parda {
+                        border-radius: 12px;
+                        padding: 36px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(94.37deg, #001d38 3.55%, rgba(0, 29, 56, 0) 100%);
+                        .project-name {
+                            width: 455px;
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 800;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #ffffff;
+                                letter-spacing: -0.02em;
+                                margin-bottom: 16px;
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                            }
+                            p:nth-child(2) {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 27px;
+                                color: rgba(255, 255, 255, 0.4);
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                                margin-bottom: 0;
+                            }
+                        }
+                        .partner {
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 22px;
+                                letter-spacing: 0.1em;
+                                color: #ffffff;
+                                opacity: 0.4;
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+                .project:nth-child(4) {
+                    background-image: url(./images/pr-bg-a.png);
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 472px;
+                    border: none;
+                    background-size: 100% 100%;
+                    margin-bottom: 46px;
+                    .parda {
+                        border-radius: 12px;
+                        padding: 36px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(94.37deg, #001d38 3.55%, rgba(0, 29, 56, 0) 100%);
+                        .project-name {
+                            width: 455px;
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 800;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #ffffff;
+                                letter-spacing: -0.02em;
+                                margin-bottom: 16px;
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                            }
+                            p:nth-child(2) {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 27px;
+                                color: rgba(255, 255, 255, 0.4);
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                                margin-bottom: 0;
+                            }
+                        }
+                        .partner {
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 22px;
+                                letter-spacing: 0.1em;
+                                color: #ffffff;
+                                opacity: 0.4;
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+                .project:nth-child(5) {
+                    background-image: url(./images/pr-bg-a.png);
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 472px;
+                    border: none;
+                    background-size: 100% 100%;
+                    .parda {
+                        border-radius: 12px;
+                        padding: 36px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(94.37deg, #001d38 3.55%, rgba(0, 29, 56, 0) 100%);
+                        .project-name {
+                            width: 455px;
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 800;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #ffffff;
+                                letter-spacing: -0.02em;
+                                margin-bottom: 16px;
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                            }
+                            p:nth-child(2) {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 27px;
+                                color: rgba(255, 255, 255, 0.4);
+                                font-family: "Manrope", sans-serif;
+                                width: 100%;
+                                margin-bottom: 0;
+                            }
+                        }
+                        .partner {
+                            p:nth-child(1) {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 22px;
+                                letter-spacing: 0.1em;
+                                color: #ffffff;
+                                opacity: 0.4;
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+footer {
+    margin-top: 64px;
+    padding-bottom: 24px;
+    .oltinchi {
+        max-width: 1208px;
+        .footer-content {
+            width: 100%;
+            .row {
+                .footer-left {
+                    .footer-text {
+                        .footer-title {
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 48px;
+                            line-height: 66px;
+                            letter-spacing: -0.02em;
+                            color: #001d38;
+                            margin-bottom: 64px;
+                        }
+                        .footer-fl {
+                            display: flex;
+                            img {
+                                margin-right: 24px;
+                                width: 24px;
+                                height: 24px;
+                            }
+                            .paragraps {
+                                p:nth-child(1) {
+                                    font-style: normal;
+                                    font-weight: 800;
+                                    font-size: 24px;
+                                    line-height: 28px;
+                                    color: #001d38;
+                                    letter-spacing: -0.02em;
+                                    font-family: "Manrope", sans-serif;
+                                    margin-bottom: 24px;
+                                }
+                                .country {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    color: #304fff;
+                                    text-decoration: none;
+                                    font-family: "Manrope", sans-serif;
+                                    margin-bottom: 0;
+                                }
+                                p:nth-child(3) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 30px;
+                                    font-family: "Manrope", sans-serif;
+                                    color: #001d38;
+                                    margin-bottom: 16px;
+                                }
+                                .zarb-country {
+                                    margin-bottom: 0;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    color: #304fff;
+                                    font-family: "Manrope", sans-serif;
+                                }
+                                p:nth-child(5) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 30px;
+                                    color: #001d38;
+                                    font-family: "Manrope", sans-serif;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                        .footer-fl:nth-child(2) {
+                            margin-bottom: 36px;
+                        }
+                    }
+                }
+                .footer-right {
+                    .karta {
+                        width: 100%;
+                        padding-top: 148px;
+                        height: 350px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .razrabotka {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 120px;
+            .raz-left {
+                display: flex;
+                .raz-firm {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: rgba(0, 29, 56, 0.4);
+                    margin-right: 40px;
+                }
+                .raz-web {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #001d38;
+                    span {
+                        img {
+                            width: 16px;
+                            height: 16px;
+                            margin-right: 11px;
+                        }
+                    }
+                }
+            }
+            .raz-right{
+                display: flex;
+                a:nth-child(1){
+                    margin-right: 36px;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+               a:nth-child(2){
+                   img{
+                       width: 24px;
+                       height: 24px;
+                   }
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        padding-top: 60px;
+        padding-left: 9px;
+        height: 812px;
+        .birinchi {
+            .nav {
+                height: 40px;
+                .nav-brand {
+                    width: 215px;
+                    height: 36px;
+                }
+                .nav-menu {
+                    transform: translateY(660px);
+                    z-index: 10;
+                    .img-menu {
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                    .text-menu {
+                        background-color: rgba(255, 255, 255, 0.1);
+                        .my-bloor {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 8px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: rgba(255, 255, 255, 0.1);
+                            backdrop-filter: blur(30px);
+                            p {
+                                margin: 0;
+                                font-size: 14px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+            .header-content {
+                height: 713px;
+                .row {
+                    height: 100%;
+                    position: relative;
+                    .header-left {
+                        z-index: 3;
+                        padding-top: 36px;
+                        p:nth-child(1) {
+                            font-size: 12px;
+                            margin-bottom: 0;
+                            width: 100%;
+                        }
+                        p:nth-child(2) {
+                            font-size: 24px;
+                            line-height: 33px;
+                            letter-spacing: -0.02em;
+                            margin-bottom: 16px;
+                        }
+                        p:nth-child(3) {
+                            font-size: 14px;
+                            line-height: 24px;
+                            margin-bottom: 36px;
+                        }
+                        .left-btn {
+                            button:nth-child(1) {
+                                margin-bottom: 24px;
+                                background: #304fff;
+                            }
+                            button:nth-child(2) {
+                                background: rgba(255, 255, 255, 0.1);
+                                backdrop-filter: blur(60px);
+                            }
+                        }
+                    }
+                    .header-right {
+                        position: absolute;
+                        bottom: 0;
+                        .mainheader {
+                            mix-blend-mode: multiply;
+
+                            display: flex;
+                            align-items: flex-end;
+                            height: 442px;
+                            width: 100%;
+                            .dashed-border {
+                                display: none;
+                            }
+                            .rightimg {
+                                display: none;
+                            }
+                            .leftimg {
+                                display: none;
+                            }
+                            .antenna {
+                                width: 180px;
+                                height: 440px;
+                                mix-blend-mode: multiply;
+                                margin-left: 46px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main {
+        .sect-one {
+            .ikkinchi {
+                nav {
+                    .sect-one-box {
+                        width: 125px;
+                        height: 80px;
+                        a {
+                            img {
+                                width: 92px;
+                                height: 23px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sect-two {
+            background: #e5e5e5;
+            padding-bottom: 60px;
+            .uchinchi {
+                .about {
+                    padding-top: 36px;
+                    p:nth-child(1) {
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 33px;
+                        width: 100%;
+                    }
+                    p:nth-child(2) {
+                        margin-top: 16px;
+                        line-height: 24px;
+                        font-size: 14px;
+                        width: 100%;
+                        color: rgba(0, 29, 56, 1);
+                    }
+                    .about-img {
+                        margin-top: 24px;
+                        padding: 8px;
+                        height: 200px;
+                        .my-div {
+                            height: 100%;
+                        }
+                    }
+                    .about-content {
+                        margin-top: 36px;
+                        .row {
+                            flex-direction: column-reverse;
+                            .about-left {
+                               
+                                .images {
+                                    width: 100%;
+                                    height: 270px;
+                                    position: relative;
+                                    margin-top: 24px;
+                                    .wave {
+                                        width: 233px;
+                                        height: 223px;
+                                        position: absolute;
+                                        top: 0;
+                                    }
+                                    .radio {
+                                        position: unset;
+                                        width: 224px;
+                                        height: 220px;
+                                        position: absolute;
+                                    }
+                                    .camera {
+                                        position: unset;
+                                        width: 193px;
+                                        height: 180px;
+                                        position: absolute;
+                                        top: 120px;
+                                    }
+                                }
+                            }
+                            .about-right {
+                                .right-content {
+                                    p:nth-child(1) {
+                                        font-size: 18px;
+                                        line-height: 28px;
+                                        color: rgba(0, 29, 56, 1);
+                                        letter-spacing: -0.02em;
+                                        font-weight: 700;
+                                    }
+                                    p:nth-child(2) {
+                                        width: 100%;
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                        margin-bottom: 16px;
+                                        font-weight: 500;
+                                        color: #001d38;
+                                    }
+                                    p:nth-child(3) {
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                        font-weight: 500;
+                                        color: #001d38;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sect-three {
+            background: #e5e5e5;
+            margin-top: 0;
+            .tortinchi {
+                .our-comfort {
+                    .comfort-title {
+                        display: none;
+                        width: 100%;
+                    }
+                    .row {
+                        .comfort-left {
+                            .comfort-content {
+                                padding-bottom: 36px;
+                                .comfort-text {
+                                    margin-top: 40px;
+                                    img {
+                                        margin-right: 16px;
+                                        margin-bottom: 50px;
+                                    }
+                                    .name-servise {
+                                        padding-bottom: 24px;
+                                        margin-bottom: 0;
+                                        p:nth-child(1) {
+                                            font-size: 18px;
+                                            line-height: 28px;
+                                            margin-bottom: 16px;
+                                            font-weight: 700;
+                                            letter-spacing: -0.02em;
+                                            color: #001d38;
+                                        }
+                                        p:nth-child(2) {
+                                            font-size: 14px;
+                                            line-height: 26px;
+                                            color: #001d38;
+                                            width: 100%;
+                                            font-weight: 500;
+                                            font-style: normal;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .comfort-right {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .sect-thour {
+            padding-bottom: 36px;
+            .beshinchi {
+                .projects {
+                    padding-top: 36px;
+                    .projects-title {
+                        font-weight: 800;
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: -0.02em;
+                        width: 100%;
+                        margin-bottom: 36px;
+                    }
+                    .project:nth-child(2) {
+                        margin-bottom: 34px;
+                        background-size: cover;
+                        background-position: center;
+                        border-radius: 14px;
+                        .parda {
+                            .project-name {
+                                width: auto;
+                                p:nth-child(1) {
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    letter-spacing: -0.02em;
+                                    width: 100%;
+                                    margin-bottom: 16px;
+                                    font-style: normal;
+                                }
+                                p:nth-child(2) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 26px;
+                                    color: rgba(255, 255, 255, 0.4);
+                                    width: 100%;
+                                }
+                            }
+                            .partner {
+                                p:nth-child(1) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    opacity: 0.4;
+                                    letter-spacing: 0.1em;
+                                    margin-bottom: 34px;
+                                }
+                            }
+                        }
+                    }
+                    .project:nth-child(3) {
+                        margin-bottom: 34px;
+                        background-size: cover;
+                        background-position: center;
+                        border-radius: 14px;
+                        .parda {
+                            .project-name {
+                                width: auto;
+                                p:nth-child(1) {
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    letter-spacing: -0.02em;
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                }
+                                p:nth-child(2) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    color: rgba(255, 255, 255, 0.4);
+                                    width: 100%;
+                                }
+                            }
+                            .partner {
+                                p:nth-child(1) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    opacity: 0.4;
+                                    letter-spacing: 0.1em;
+                                    margin-bottom: 34px;
+                                }
+                            }
+                        }
+                    }
+                    .project:nth-child(4) {
+                        margin-bottom: 34px;
+                        background-size: cover;
+                        background-position: center;
+                        border-radius: 14px;
+                        .parda {
+                            .project-name {
+                                width: auto;
+                                p:nth-child(1) {
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    letter-spacing: -0.02em;
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                }
+                                p:nth-child(2) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    color: rgba(255, 255, 255, 0.4);
+                                    width: 100%;
+                                }
+                            }
+                            .partner {
+                                p:nth-child(1) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    opacity: 0.4;
+                                    letter-spacing: 0.1em;
+                                    margin-bottom: 34px;
+                                }
+                            }
+                        }
+                    }
+                    .project:nth-child(5) {
+                        background-size: cover;
+                        background-position: center;
+                        border-radius: 14px;
+                        .parda {
+                            .project-name {
+                                width: auto;
+                                p:nth-child(1) {
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    letter-spacing: -0.02em;
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                }
+                                p:nth-child(2) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    color: rgba(255, 255, 255, 0.4);
+                                    width: 100%;
+                                }
+                            }
+                            .partner {
+                                p:nth-child(1) {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    opacity: 0.4;
+                                    letter-spacing: 0.1em;
+                                    margin-bottom: 34px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 36px;
+        .oltinchi {
+            .footer-content {
+                .row {
+                    .footer-left {
+                        .footer-text {
+                            .footer-title {
+                                color: #001d38;
+
+                                font-size: 24px;
+                                line-height: 33px;
+                                letter-spacing: -0.02em;
+                                margin-bottom: 40px;
+                                width: 100%;
+                                font-weight: 700;
+                            }
+                            .footer-fl {
+                                img {
+                                    margin-right: 16px;
+                                }
+                                .paragraps {
+                                    p:nth-child(1) {
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 18px;
+                                        line-height: 28px;
+                                        width: 100%;
+                                        margin-bottom: 16px;
+                                        letter-spacing: -0.02em;
+                                        color: #001d38;
+                                    }
+                                    .country {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                        color: #304fff;
+                                    }
+                                    p:nth-child(3) {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: 30px;
+                                        margin-bottom: 8px;
+                                        width: 100%;
+                                        color: #001d38;
+                                    }
+                                    .zarb-country {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                    }
+                                }
+                            }
+                            .footer-fl:nth-child(2) {
+                                margin-bottom: 24px;
+                            }
+                        }
+                    }
+                    .footer-right {
+                        display: none;
+                    }
+                }
+            }
+            .razrabotka{
+                margin-top: 64px;
+                .raz-left{
+                    .raz-web{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
